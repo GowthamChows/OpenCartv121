@@ -17,7 +17,7 @@ public class Driver_setup {
 
         // Chrome options to customize the browser behavior
         options.addArguments("--remote-allow-origins=*"); // Allow cross-origin requests
-          options.addArguments("--headless"); // Uncomment to run tests in headless mode
+        //  options.addArguments("--headless"); // Uncomment to run tests in headless mode
         // options.setAcceptInsecureCerts(true); // Uncomment to accept insecure SSL certificates
         // options.addArguments("--incognito"); // Uncomment to launch in incognito mode
         options.addArguments("--disable-gpu"); // Disable GPU rendering (recommended for headless mode)
