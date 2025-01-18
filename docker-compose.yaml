@@ -1,0 +1,81 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub
+    container_name: selenium-hub
+    ports:
+      - "4442-4444:4442-4444"
+    networks:
+      - grid
+
+  chrome:
+    image: selenium/node-chrome
+    depends_on:
+      - hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    networks:
+      - grid
+
+  firefox:
+    image: selenium/node-firefox
+    depends_on:
+      - hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    networks:
+      - grid
+
+networks:
+  grid:
+	
+	
+###### When using this yaml file ############
+	
+	#### Just copy this yaml file into vm and execute this using below Command #########
+	
+	### docker-compose up -d ########
+
+	
+	
+############### Manually If want to install without This Docker-compose.yaml file ##############
+
+#1. launch the lunix vm machine, which should contain medium ram like (t2).
+#2. launch the following commands
+    # sudo apt-get update
+	# sudo apt-get install -y ca-certificates curl gnupg
+	# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+	# echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+	#sudo apt-get update
+	#sudo apt-get install -y docker-ce docker-ce-cli containerd.io
+	#docker --version
+	#sudo systemctl status docker
+	#sudo usermod -aG docker 
+	#$USERnewgrp docker
+	# docker pull selenium/hub
+	#docker pull selenium/node-chrome
+	#docker pull selenium/node-firefox
+	
+	
+	#### Create the Network #####
+	#docker network create grid
+	##### In the Security Groups Allow the following ports in the inbound rules >>> ports 4444 and 4442-4443
+	#docker run -d -p 4442-4444:4442-4444 --net grid --name selenium-hub selenium/hub
+	#docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-chrome
+	#docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-firefox
+	
+	### Acsess the url using  http://<public-ip-ec2:4444
+	
+	### Add this url in the reused class so that it can recognize the nodes.
+
+	
+	
+	
+	
+	
+	
+	

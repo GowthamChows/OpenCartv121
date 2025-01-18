@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Defines the XML declaration with proper encoding. -->
+
+<Configuration status="INFO"> <!-- The root element for the logging configuration, with status level set to WARN. This level controls internal log messages for the logging framework. -->
+
+    <Properties>
+        <!-- Defines reusable properties that can be referenced elsewhere in the configuration. -->
+        <Property name="basePath">./logs</Property> <!-- Sets the base path for log files to the ./logs directory. -->
+    </Properties>
+
+    <Appenders> <!-- Defines the appenders, which specify where log messages should be sent (e.g., console, files). -->
+
+        <Console name="Console" target="SYSTEM_OUT"> <!-- Configures a console appender to output logs to the system console. -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <!-- Formats the log messages with a timestamp, thread name, log level, logger name, and the message. 
+                 %d{HH:mm:ss.SSS} - Date in hours:minutes:seconds.milliseconds format.
+                 [%t] - Thread name.
+                 %-5level - Log level padded to 5 characters (e.g., DEBUG, INFO).
+                 %logger{36} - Logger name truncated to 36 characters if needed.
+                 - %msg - The actual log message.
+                 %n - Newline. -->
+        </Console>
+
+        <RollingFile name="File" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+            <!-- Configures a rolling file appender to write logs to a file and rotate them based on date. -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <!-- The same log formatting as the console appender. -->
+            <SizeBasedTriggeringPolicy size="5000" />
+            <!-- Specifies the rolling condition: logs will roll over to a new file when the size exceeds 5MB. -->
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers> <!-- Defines the loggers and their associated levels and appenders. -->
+
+        <Root level="Debug"> <!-- Configures the root logger, which is the default logger for all loggers without specific settings. -->
+            <!-- The level here determines the minimum severity level for logs to be captured. -->
+            <AppenderRef ref="File"/> <!-- Associates the file appender with the root logger, so all logs are written to the file. -->
+             <AppenderRef ref="Console"/> <!--  Associates the console appender with the root logger, so logs are also displayed on the console. -->
+            <!-- Note: The console appender is commented out. Uncomment it if you want logs on both console and file. -->
+            <!-- <AppenderRef ref="Console"/> -->
+        </Root>
+
+    </Loggers>
+
+</Configuration>

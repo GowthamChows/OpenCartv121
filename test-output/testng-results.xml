@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-18T13:31:10 IST" name="Suite" finished-at="2025-01-18T13:32:25 IST" duration-ms="74336">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_AccountRegTest.Account_reg()[pri:0, instance:testCases.TC001_AccountRegTest@7e22550a]" name="Account_reg" class="testCases.TC001_AccountRegTest"/>
+        <method signature="TC002_Login_Test.Login_test()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" name="Login_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC002_Login_Test.Verifying_PageTitle_test()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" name="Verifying_PageTitle_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC004_Search_Products_Test.SearchTest()[pri:0, instance:testCases.TC004_Search_Products_Test@7516e4e5]" name="SearchTest" class="testCases.TC004_Search_Products_Test"/>
+        <method signature="TC001_AccountRegTest.Account_reg()[pri:0, instance:testCases.TC001_AccountRegTest@674658f7]" name="Account_reg" class="testCases.TC001_AccountRegTest"/>
+        <method signature="TC002_Login_Test.Login_test()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" name="Login_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC002_Login_Test.Verifying_PageTitle_test()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" name="Verifying_PageTitle_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC004_Search_Products_Test.SearchTest()[pri:0, instance:testCases.TC004_Search_Products_Test@565b064f]" name="SearchTest" class="testCases.TC004_Search_Products_Test"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC001_AccountRegTest.Account_reg()[pri:0, instance:testCases.TC001_AccountRegTest@7e22550a]" name="Account_reg" class="testCases.TC001_AccountRegTest"/>
+        <method signature="TC002_Login_Test.Verifying_PageTitle_test()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" name="Verifying_PageTitle_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC004_Search_Products_Test.SearchTest()[pri:0, instance:testCases.TC004_Search_Products_Test@7516e4e5]" name="SearchTest" class="testCases.TC004_Search_Products_Test"/>
+        <method signature="TC001_AccountRegTest.Account_reg()[pri:0, instance:testCases.TC001_AccountRegTest@674658f7]" name="Account_reg" class="testCases.TC001_AccountRegTest"/>
+        <method signature="TC002_Login_Test.Verifying_PageTitle_test()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" name="Verifying_PageTitle_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC004_Search_Products_Test.SearchTest()[pri:0, instance:testCases.TC004_Search_Products_Test@565b064f]" name="SearchTest" class="testCases.TC004_Search_Products_Test"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC002_Login_Test.Login_test()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" name="Login_test" class="testCases.TC002_Login_Test"/>
+        <method signature="TC002_Login_Test.Login_test()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" name="Login_test" class="testCases.TC002_Login_Test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-18T13:31:10 IST" name="Linux-ChromeTest" finished-at="2025-01-18T13:31:45 IST" duration-ms="34367">
+      <class name="testCases.TC004_Search_Products_Test">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_Search_Products_Test@7516e4e5]" started-at="2025-01-18T13:31:37 IST" name="SetUp" finished-at="2025-01-18T13:31:42 IST" duration-ms="4787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchTest()[pri:0, instance:testCases.TC004_Search_Products_Test@7516e4e5]" started-at="2025-01-18T13:31:42 IST" name="SearchTest" finished-at="2025-01-18T13:31:44 IST" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC004_Search_Products_Test@7516e4e5]" started-at="2025-01-18T13:31:44 IST" name="TearDown" finished-at="2025-01-18T13:31:45 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC004_Search_Products_Test -->
+      <class name="testCases.TC001_AccountRegTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegTest@7e22550a]" started-at="2025-01-18T13:31:11 IST" name="SetUp" finished-at="2025-01-18T13:31:16 IST" duration-ms="5279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Account_reg()[pri:0, instance:testCases.TC001_AccountRegTest@7e22550a]" started-at="2025-01-18T13:31:16 IST" name="Account_reg" finished-at="2025-01-18T13:31:24 IST" duration-ms="8224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_reg -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC001_AccountRegTest@7e22550a]" started-at="2025-01-18T13:31:24 IST" name="TearDown" finished-at="2025-01-18T13:31:25 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC001_AccountRegTest -->
+      <class name="testCases.TC002_Login_Test">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" started-at="2025-01-18T13:31:25 IST" name="SetUp" finished-at="2025-01-18T13:31:30 IST" duration-ms="5102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Login_test()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" started-at="2025-01-18T13:31:30 IST" name="Login_test" finished-at="2025-01-18T13:31:36 IST" duration-ms="6608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test -->
+        <test-method signature="Verifying_PageTitle_test()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" started-at="2025-01-18T13:31:36 IST" name="Verifying_PageTitle_test" finished-at="2025-01-18T13:31:37 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_PageTitle_test -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC002_Login_Test@1021f6c9]" started-at="2025-01-18T13:31:37 IST" name="TearDown" finished-at="2025-01-18T13:31:37 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC002_Login_Test -->
+    </test> <!-- Linux-ChromeTest -->
+    <test started-at="2025-01-18T13:31:46 IST" name="Linux-firefoxTest" finished-at="2025-01-18T13:32:25 IST" duration-ms="39286">
+      <class name="testCases.TC004_Search_Products_Test">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_Search_Products_Test@565b064f]" started-at="2025-01-18T13:32:15 IST" name="SetUp" finished-at="2025-01-18T13:32:21 IST" duration-ms="6538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchTest()[pri:0, instance:testCases.TC004_Search_Products_Test@565b064f]" started-at="2025-01-18T13:32:21 IST" name="SearchTest" finished-at="2025-01-18T13:32:24 IST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC004_Search_Products_Test@565b064f]" started-at="2025-01-18T13:32:24 IST" name="TearDown" finished-at="2025-01-18T13:32:25 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC004_Search_Products_Test -->
+      <class name="testCases.TC001_AccountRegTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegTest@674658f7]" started-at="2025-01-18T13:31:46 IST" name="SetUp" finished-at="2025-01-18T13:31:52 IST" duration-ms="6544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Account_reg()[pri:0, instance:testCases.TC001_AccountRegTest@674658f7]" started-at="2025-01-18T13:31:52 IST" name="Account_reg" finished-at="2025-01-18T13:32:00 IST" duration-ms="7831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_reg -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC001_AccountRegTest@674658f7]" started-at="2025-01-18T13:32:00 IST" name="TearDown" finished-at="2025-01-18T13:32:01 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC001_AccountRegTest -->
+      <class name="testCases.TC002_Login_Test">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" started-at="2025-01-18T13:32:01 IST" name="SetUp" finished-at="2025-01-18T13:32:07 IST" duration-ms="6575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Login_test()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" started-at="2025-01-18T13:32:07 IST" name="Login_test" finished-at="2025-01-18T13:32:13 IST" duration-ms="5783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test -->
+        <test-method signature="Verifying_PageTitle_test()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" started-at="2025-01-18T13:32:13 IST" name="Verifying_PageTitle_test" finished-at="2025-01-18T13:32:14 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_PageTitle_test -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC002_Login_Test@5c8eee0f]" started-at="2025-01-18T13:32:14 IST" name="TearDown" finished-at="2025-01-18T13:32:15 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC002_Login_Test -->
+    </test> <!-- Linux-firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

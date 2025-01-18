@@ -1,0 +1,62 @@
+15:29:49.058 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+15:29:49.407 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\grouping.xml
+
+15:29:55.348 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+15:29:56.243 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+15:29:56.780 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+15:29:56.787 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+15:29:58.918 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+15:29:59.007 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+15:30:02.448 [main] INFO  testCases.TC002_Login_Test - ********************** Starting the TC002_LoginTest**********************8
+15:30:07.136 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+15:30:08.110 [main] INFO  testCases.TC002_Login_Test - Test Has Been Finished
+15:30:45.655 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+15:30:46.114 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\grouping.xml
+
+15:30:50.518 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+15:30:51.029 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+15:30:51.616 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+15:30:51.621 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+15:30:53.956 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+15:30:54.087 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+15:30:57.084 [main] INFO  testCases.TC002_Login_Test - ********************** Starting the TC002_LoginTest**********************8
+15:30:59.117 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+15:30:59.642 [main] INFO  testCases.TC002_Login_Test - Test Has Been Finished
+16:42:31.374 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+16:44:02.209 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+16:44:02.473 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\grouping.xml
+
+16:44:04.948 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+16:44:05.135 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+16:44:05.477 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+16:44:05.481 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+16:44:06.606 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+16:44:06.655 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+16:44:08.799 [main] INFO  testCases.TC002_Login_Test - ********************** Starting the TC002_LoginTest**********************8
+16:44:09.942 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+16:44:10.298 [main] INFO  testCases.TC002_Login_Test - Test Has Been Finished
+16:44:10.302 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the Home Page Tittle ****************
+17:00:24.435 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+17:00:24.691 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\grouping.xml
+
+17:00:27.349 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+17:00:27.466 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+17:00:27.849 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+17:00:27.852 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+17:00:29.083 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+17:00:29.121 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+17:00:31.087 [main] INFO  testCases.TC002_Login_Test - ********************** Starting the TC002_LoginTest**********************8
+17:00:31.763 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+17:00:32.822 [main] INFO  testCases.TC002_Login_Test - Test Has Been Finished
+17:00:32.827 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+17:05:44.951 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+17:05:45.218 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\grouping.xml
+
+17:05:47.988 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+17:05:48.113 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+17:05:48.451 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
