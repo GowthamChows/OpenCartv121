@@ -13,7 +13,7 @@ public class EdgeDriver_Setup {
         EdgeOptions options = new EdgeOptions();
         options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
         options.addArguments("--remote-allow-origins=*");
-       // options.addArguments("--headless=new"); // conduct the tests in the background.
+        options.addArguments("--headless"); // conduct the tests in the background.
         //  options.setAcceptInsecureCerts(true); // accepts the SSL certificates.
         //  options.setExperimentalOption("excludeSwithes", new String[] {"enable-automation"}); // disables the popup like controlled by the automated software
        // options.addArguments("--incognito"); // Opens the page in the incognito mode.
