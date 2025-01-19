@@ -20,9 +20,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>grouping.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                    <headless>true</headless>
-                </systemPropertyVariables>
+                    <argLine>-Djava.awt.headless=true</argLine> <!-- Enables headless mode -->
                 </configuration>
             </plugin>
         </plugins>
