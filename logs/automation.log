@@ -20,3 +20,14 @@
 17:34:42.794 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
 17:34:43.157 [main] INFO  testCases.TC002_Login_Test - Test Has Been Finished
 17:34:43.162 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+11:11:13.906 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+11:11:16.911 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+11:11:17.043 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+11:11:17.440 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+11:11:17.445 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+11:11:18.825 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+11:11:18.885 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+11:11:20.671 [main] INFO  testCases.TC002_Login_Test - ********************** Starting the TC002_LoginTest**********************8
+11:11:21.430 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+11:11:22.432 [main] INFO  testCases.TC002_Login_Test - Test Has Been Finished
+11:11:22.436 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
