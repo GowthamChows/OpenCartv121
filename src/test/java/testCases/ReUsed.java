@@ -79,7 +79,7 @@ public class ReUsed {
             }
 
             // Connect to Selenium Grid
-            driver = new RemoteWebDriver(new URL("http://107.23.80.71:4444/wd/hub"), capabilities);
+            driver = new RemoteWebDriver(new URL("http://54.226.84.25:4444/wd/hub"), capabilities);
 
         } else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
             // Execute Locally
