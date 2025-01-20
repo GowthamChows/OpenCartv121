@@ -50,6 +50,7 @@ public class TC001_AccountRegTest extends ReUsed {
     	   logger.debug("Debug Logs");
     	   Assert.fail();
        }
+       
        logger.info("TC001_AccountRegTest Finished");
 	
 	}

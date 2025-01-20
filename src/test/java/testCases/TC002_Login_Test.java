@@ -12,15 +12,19 @@ public class TC002_Login_Test extends ReUsed {
 		       
         Home_page hp = new Home_page(driver);
         
+        logger.info("TC002_Login_test Started execution");
+        
         logger.info("***************Verifying the  Page Name ****************");
         boolean conformMsg=hp.Page_Name();
+        
+        logger.info("Page Tittle Verification Sucessfull");
         
 	}
         
         
         @Test(groups= {"Regression", "Master"})
         public void Login_test() { 
-        logger.info("********************** Starting the TC002_LoginTest**********************8");
+        logger.info("Executing the Login");
 
         Home_page hp = new Home_page(driver);
         
@@ -40,7 +44,7 @@ public class TC002_Login_Test extends ReUsed {
 		
 	   MyAcPage.ClickOnLogoutbtn();
 	   
-	   logger.info("Test Has Been Finished");
+	   logger.info("Login Sucessfull And Test Has Finished");
 	}
 	
 }

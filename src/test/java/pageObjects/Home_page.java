@@ -32,6 +32,9 @@ public class Home_page  extends BasePage {
 	@FindBy(xpath="//i[@class='fa fa-search']")
 	WebElement Search_btn;
 	
+	@FindBy(xpath="//div[@class='caption']//a[contains(text(),'MacBook')]")
+	WebElement MacBook;
+	
 	
 	
 	 public boolean Page_Name() {
@@ -65,6 +68,11 @@ public class Home_page  extends BasePage {
 	public void ClickSearchBtn()
 	{
 		Search_btn.click();
+	}
+	
+	public void ClickOnMacBook()
+	{
+		MacBook.click();
 	}
 	
 }

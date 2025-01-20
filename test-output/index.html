@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,17 +50,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\eclipse\Workplace\opencart_121\Grid.xml</span>
+                    <span>C:\eclipse\Workplace\opencart_121\testing.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>3 groups</span>
+                    <span>4 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_login_DDT" class="method navigator-link" hash-for-method="Verify_Login_DDT(pavanoltraining@gmail.com, test@123, Valid)">Verify_Login_DDT(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_login_DDT" class="method navigator-link" hash-for-method="Verify_Login_DDT(lakshmi@gmail.com, Laxshmi, invalid)">Verify_Login_DDT(lakshmi@gmail.com, Laxshmi, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_login_DDT" class="method navigator-link" hash-for-method="Verify_Login_DDT(gowtham@gmail.com, xyz, invalid)">Verify_Login_DDT(gowtham@gmail.com, xyz, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_login_DDT" class="method navigator-link" hash-for-method="Verify_Login_DDT(gowthamuppala@gmail.com, gowtham, invalid)">Verify_Login_DDT(gowthamuppala@gmail.com, gowtham, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +137,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_AccountRegTest" class="method navigator-link" hash-for-method="Account_reg">Account_reg</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC005_Add_to_Cart_Test" class="method navigator-link" hash-for-method="Add_to_Cart">Add_to_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_Checkout_Test" class="method navigator-link" hash-for-method="Add_to_Cart_and_Checkout">Add_to_Cart_and_Checkout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -118,7 +152,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_Login_Test" class="method navigator-link" hash-for-method="Login_test">Login_test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC007_Modifying_Cart_Test" class="method navigator-link" hash-for-method="Modifying_Cart_Test">Modifying_Cart_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,12 +162,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_Search_Products_Test" class="method navigator-link" hash-for-method="SearchTest">SearchTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_Login_Test" class="method navigator-link" hash-for-method="Verifying_PageTitle_test">Verifying_PageTitle_test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_login_DDT" class="method navigator-link" hash-for-method="Verify_Login_DDT(abcref123@gmail.com, abc@123, valid)">Verify_Login_DDT(abcref123@gmail.com, abc@123, valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,6 +182,166 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC003_login_DDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_DDT(pavanoltraining@gmail.com, test@123, Valid)">
+                  </a> <!-- Verify_Login_DDT(pavanoltraining@gmail.com, test@123, Valid) -->
+                  <span class="method-name">Verify_Login_DDT</span>
+                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_login_DDT.Verify_Login_DDT(TC003_login_DDT.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_DDT(lakshmi@gmail.com, Laxshmi, invalid)">
+                  </a> <!-- Verify_Login_DDT(lakshmi@gmail.com, Laxshmi, invalid) -->
+                  <span class="method-name">Verify_Login_DDT</span>
+                  <span class="parameters">(lakshmi@gmail.com,Laxshmi,invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;]&quot;}
+  (Session info: chrome=131.0.6778.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb2a657b4c26acc6e9e5bef448db9f7d, findElement {value=//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.85, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62357/devtoo..., se:cdpVersion: 131.0.6778.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb2a657b4c26acc6e9e5bef448db9f7d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.MyAccount_Page.ClickOnLogoutbtn(MyAccount_Page.java:35)
+	at testCases.TC003_login_DDT.Verify_Login_DDT(TC003_login_DDT.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_DDT(gowtham@gmail.com, xyz, invalid)">
+                  </a> <!-- Verify_Login_DDT(gowtham@gmail.com, xyz, invalid) -->
+                  <span class="method-name">Verify_Login_DDT</span>
+                  <span class="parameters">(gowtham@gmail.com,xyz,invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;]&quot;}
+  (Session info: chrome=131.0.6778.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb2a657b4c26acc6e9e5bef448db9f7d, findElement {value=//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.85, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62357/devtoo..., se:cdpVersion: 131.0.6778.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb2a657b4c26acc6e9e5bef448db9f7d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.MyAccount_Page.ClickOnLogoutbtn(MyAccount_Page.java:35)
+	at testCases.TC003_login_DDT.Verify_Login_DDT(TC003_login_DDT.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_DDT(gowthamuppala@gmail.com, gowtham, invalid)">
+                  </a> <!-- Verify_Login_DDT(gowthamuppala@gmail.com, gowtham, invalid) -->
+                  <span class="method-name">Verify_Login_DDT</span>
+                  <span class="parameters">(gowthamuppala@gmail.com,gowtham,invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;]&quot;}
+  (Session info: chrome=131.0.6778.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb2a657b4c26acc6e9e5bef448db9f7d, findElement {value=//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.85, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62357/devtoo..., se:cdpVersion: 131.0.6778.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb2a657b4c26acc6e9e5bef448db9f7d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.MyAccount_Page.ClickOnLogoutbtn(MyAccount_Page.java:35)
+	at testCases.TC003_login_DDT.Verify_Login_DDT(TC003_login_DDT.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_login_DDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_DDT(abcref123@gmail.com, abc@123, valid)">
+                  </a> <!-- Verify_Login_DDT(abcref123@gmail.com, abc@123, valid) -->
+                  <span class="method-name">Verify_Login_DDT</span>
+                  <span class="parameters">(abcref123@gmail.com,abc@123,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC001_AccountRegTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Account_reg">
+                  </a> <!-- Account_reg -->
+                  <span class="method-name">Account_reg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -166,11 +355,34 @@
                   <span class="method-name">SearchTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC007_Modifying_Cart_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SearchTest">
-                  </a> <!-- SearchTest -->
-                  <span class="method-name">SearchTest</span>
+                  <a name="Modifying_Cart_Test">
+                  </a> <!-- Modifying_Cart_Test -->
+                  <span class="method-name">Modifying_Cart_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC006_Checkout_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_to_Cart_and_Checkout">
+                  </a> <!-- Add_to_Cart_and_Checkout -->
+                  <span class="method-name">Add_to_Cart_and_Checkout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,20 +402,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Login_test">
-                  </a> <!-- Login_test -->
-                  <span class="method-name">Login_test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verifying_PageTitle_test">
-                  </a> <!-- Verifying_PageTitle_test -->
-                  <span class="method-name">Verifying_PageTitle_test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Verifying_PageTitle_test">
                   </a> <!-- Verifying_PageTitle_test -->
                   <span class="method-name">Verifying_PageTitle_test</span>
@@ -214,21 +412,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC001_AccountRegTest</span>
+              <span class="class-name">testCases.TC005_Add_to_Cart_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Account_reg">
-                  </a> <!-- Account_reg -->
-                  <span class="method-name">Account_reg</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Account_reg">
-                  </a> <!-- Account_reg -->
-                  <span class="method-name">Account_reg</span>
+                  <a name="Add_to_Cart">
+                  </a> <!-- Add_to_Cart -->
+                  <span class="method-name">Add_to_Cart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,7 +427,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\eclipse\Workplace\opencart_121\Grid.xml</span>
+            <span class="header-content">C:\eclipse\Workplace\opencart_121\testing.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -246,24 +437,19 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;testBase.Extent_Reports&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Linux-ChromeTest&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC001_AccountRegTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC002_Login_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_login_DDT&quot;/&gt;
       &lt;class name=&quot;testCases.TC004_Search_Products_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TC005_Add_to_Cart_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TC006_Checkout_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TC007_Modifying_Cart_Test&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Linux-ChromeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Linux-firefoxTest&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC001_AccountRegTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC002_Login_Test&quot;/&gt;
-      &lt;class name=&quot;testCases.TC004_Search_Products_Test&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Linux-firefoxTest --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -275,10 +461,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Linux-ChromeTest (3 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Linux-firefoxTest (3 classes)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -289,6 +472,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">DDT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Login_DDT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
@@ -296,7 +487,19 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">Add_to_Cart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_to_Cart_and_Checkout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">Login_test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Modifying_Cart_Test</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -324,6 +527,18 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">Add_to_Cart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_to_Cart_and_Checkout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Modifying_Cart_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">SearchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -348,44 +563,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Account_reg')
-data.setCell(0, 2, 'testCases.TC001_AccountRegTest')
-data.setCell(0, 3, 8944);
+data.setCell(0, 1, 'Verify_Login_DDT')
+data.setCell(0, 2, 'testCases.TC003_login_DDT')
+data.setCell(0, 3, 20935);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Account_reg')
-data.setCell(1, 2, 'testCases.TC001_AccountRegTest')
-data.setCell(1, 3, 8441);
+data.setCell(1, 1, 'Verify_Login_DDT')
+data.setCell(1, 2, 'testCases.TC003_login_DDT')
+data.setCell(1, 3, 20897);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Login_test')
-data.setCell(2, 2, 'testCases.TC002_Login_Test')
-data.setCell(2, 3, 7538);
+data.setCell(2, 1, 'Verify_Login_DDT')
+data.setCell(2, 2, 'testCases.TC003_login_DDT')
+data.setCell(2, 3, 20574);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Login_test')
-data.setCell(3, 2, 'testCases.TC002_Login_Test')
-data.setCell(3, 3, 6552);
+data.setCell(3, 1, 'Verify_Login_DDT')
+data.setCell(3, 2, 'testCases.TC003_login_DDT')
+data.setCell(3, 3, 11188);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'SearchTest')
-data.setCell(4, 2, 'testCases.TC004_Search_Products_Test')
-data.setCell(4, 3, 2984);
+data.setCell(4, 1, 'Verify_Login_DDT')
+data.setCell(4, 2, 'testCases.TC003_login_DDT')
+data.setCell(4, 3, 1736);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'SearchTest')
-data.setCell(5, 2, 'testCases.TC004_Search_Products_Test')
-data.setCell(5, 3, 2563);
+data.setCell(5, 1, 'Account_reg')
+data.setCell(5, 2, 'testCases.TC001_AccountRegTest')
+data.setCell(5, 3, 1565);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Verifying_PageTitle_test')
-data.setCell(6, 2, 'testCases.TC002_Login_Test')
-data.setCell(6, 3, 856);
+data.setCell(6, 1, 'Modifying_Cart_Test')
+data.setCell(6, 2, 'testCases.TC007_Modifying_Cart_Test')
+data.setCell(6, 3, 1419);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Verifying_PageTitle_test')
+data.setCell(7, 1, 'Login_test')
 data.setCell(7, 2, 'testCases.TC002_Login_Test')
-data.setCell(7, 3, 568);
+data.setCell(7, 3, 1363);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Add_to_Cart_and_Checkout')
+data.setCell(8, 2, 'testCases.TC006_Checkout_Test')
+data.setCell(8, 3, 1300);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Add_to_Cart')
+data.setCell(9, 2, 'testCases.TC005_Add_to_Cart_Test')
+data.setCell(9, 3, 609);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SearchTest')
+data.setCell(10, 2, 'testCases.TC004_Search_Products_Test')
+data.setCell(10, 3, 391);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Verifying_PageTitle_test')
+data.setCell(11, 2, 'testCases.TC002_Login_Test')
+data.setCell(11, 3, 58);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -413,99 +644,134 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC001_AccountRegTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">SetUp(Linux, chrome)</span>
+                <span class="method-name">SetUp(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Account_reg</span>
-                <span class="method-start">5389 ms</span>
+                <span class="method-start">2173 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">14356 ms</span>
+                <span class="method-start">3752 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_Login_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">SetUp(Linux, chrome)</span>
-                <span class="method-start">14694 ms</span>
+                <span class="method-name">SetUp(windows, chrome)</span>
+                <span class="method-start">3862 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Login_test</span>
-                <span class="method-start">19686 ms</span>
+                <span class="method-start">5564 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verifying_PageTitle_test</span>
-                <span class="method-start">26242 ms</span>
+                <span class="method-start">6930 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">26812 ms</span>
+                <span class="method-start">6990 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC003_login_DDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp(windows, chrome)</span>
+                <span class="method-start">7143 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Login_DDT(pavanoltraining@gmail.com, test@123, Valid)</span>
+                <span class="method-start">10277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Login_DDT(lakshmi@gmail.com, Laxshmi, invalid)</span>
+                <span class="method-start">21623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Login_DDT(gowthamuppala@gmail.com, gowtham, invalid)</span>
+                <span class="method-start">42351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login_DDT(abcref123@gmail.com, abc@123, valid)</span>
+                <span class="method-start">63537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Login_DDT(gowtham@gmail.com, xyz, invalid)</span>
+                <span class="method-start">65280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">86364 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC004_Search_Products_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">SetUp(Linux, chrome)</span>
-                <span class="method-start">27164 ms</span>
+                <span class="method-name">SetUp(windows, chrome)</span>
+                <span class="method-start">86491 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">SearchTest</span>
-                <span class="method-start">31701 ms</span>
+                <span class="method-start">88142 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">34266 ms</span>
+                <span class="method-start">88536 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_AccountRegTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC005_Add_to_Cart_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">SetUp(Linux, firefox)</span>
-                <span class="method-start">35265 ms</span>
+                <span class="method-name">SetUp(windows, chrome)</span>
+                <span class="method-start">88652 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Account_reg</span>
-                <span class="method-start">41951 ms</span>
+                <span class="method-name">Add_to_Cart</span>
+                <span class="method-start">90353 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">50392 ms</span>
+                <span class="method-start">90963 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC002_Login_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC006_Checkout_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">SetUp(Linux, firefox)</span>
-                <span class="method-start">51558 ms</span>
+                <span class="method-name">SetUp(windows, chrome)</span>
+                <span class="method-start">91096 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Login_test</span>
-                <span class="method-start">58205 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Verifying_PageTitle_test</span>
-                <span class="method-start">65746 ms</span>
+                <span class="method-name">Add_to_Cart_and_Checkout</span>
+                <span class="method-start">92854 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">66604 ms</span>
+                <span class="method-start">94156 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC004_Search_Products_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC007_Modifying_Cart_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">SetUp(Linux, firefox)</span>
-                <span class="method-start">67620 ms</span>
+                <span class="method-name">SetUp(windows, chrome)</span>
+                <span class="method-start">94307 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">SearchTest</span>
-                <span class="method-start">74664 ms</span>
+                <span class="method-name">Modifying_Cart_Test</span>
+                <span class="method-start">95921 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">77650 ms</span>
+                <span class="method-start">97342 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

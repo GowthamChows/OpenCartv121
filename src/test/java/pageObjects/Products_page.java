@@ -27,6 +27,15 @@ public class Products_page  extends BasePage {
 	@FindBy(xpath="//h1[normalize-space()='iPhone']")
 	WebElement ProductName;
 	
+	@FindBy(xpath="//button[@id='button-cart']")
+	WebElement addtocartbtn;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement successMessage;
+	
+	@FindBy(xpath="//span[@id='cart-total']")
+	WebElement TotalCartBtn;
+	
 	public void  Verifying_Product()
 	{
 		Iphone.click();
@@ -48,5 +57,19 @@ public class Products_page  extends BasePage {
 		    {
 				return false;
 			}
+	}
+	
+	public void AddToCartBtn()
+	{
+		addtocartbtn.click();
+	}
+	
+	public String getAlertMessageText() {
+        return successMessage.getText();
+    }
+	
+	public void ClickOnFinalCart()
+	{
+		TotalCartBtn.click();
 	}
 }

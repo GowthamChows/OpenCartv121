@@ -28,7 +28,7 @@ public class ReUsed {
     public Logger logger;
     public Properties p;
 
-    @BeforeClass(groups = {"Sanity", "Master", "Regression"})
+    @BeforeClass(groups = {"Sanity", "Master", "Regression",})
     @Parameters({"os", "browser"})
     public void SetUp(String os, String br) throws IOException {
         logger = LogManager.getLogger(this.getClass());
