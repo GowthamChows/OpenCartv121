@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Linux-ChromeTest</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">62,953</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Linux-firefoxTest</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">77,346</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">13</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">140,299</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Linux-ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC006_Checkout_Test</td><td><a href="#m0">Add_to_Cart_and_Checkout</a></td><td rowspan="1">1737526023427</td><td rowspan="1">3172</td></tr><tr><th colspan="4">Linux-ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegTest</td><td><a href="#m1">Account_reg</a></td><td rowspan="1">1737525981972</td><td rowspan="1">8083</td></tr><tr class="passedodd"><td rowspan="2">testCases.TC002_Login_Test</td><td><a href="#m2">Login_test</a></td><td rowspan="1">1737525994645</td><td rowspan="1">6412</td></tr><tr class="passedodd"><td><a href="#m3">Verifying_PageTitle_test</a></td><td rowspan="1">1737526001060</td><td rowspan="1">1115</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC004_Search_Products_Test</td><td><a href="#m4">SearchTest</a></td><td rowspan="1">1737526007737</td><td rowspan="1">2610</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC005_Add_to_Cart_Test</td><td><a href="#m5">Add_to_Cart</a></td><td rowspan="1">1737526015635</td><td rowspan="1">2579</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC007_Modifying_Cart_Test</td><td><a href="#m6">Modifying_Cart_Test</a></td><td rowspan="1">1737526032590</td><td rowspan="1">6654</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Linux-firefoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegTest</td><td><a href="#m7">Account_reg</a></td><td rowspan="1">1737526047271</td><td rowspan="1">7710</td></tr><tr class="passedodd"><td rowspan="2">testCases.TC002_Login_Test</td><td><a href="#m8">Login_test</a></td><td rowspan="1">1737526062410</td><td rowspan="1">5908</td></tr><tr class="passedodd"><td><a href="#m9">Verifying_PageTitle_test</a></td><td rowspan="1">1737526068318</td><td rowspan="1">493</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC004_Search_Products_Test</td><td><a href="#m10">SearchTest</a></td><td rowspan="1">1737526076352</td><td rowspan="1">2756</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC005_Add_to_Cart_Test</td><td><a href="#m11">Add_to_Cart</a></td><td rowspan="1">1737526086657</td><td rowspan="1">3279</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC006_Checkout_Test</td><td><a href="#m12">Add_to_Cart_and_Checkout</a></td><td rowspan="1">1737526097344</td><td rowspan="1">5483</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC007_Modifying_Cart_Test</td><td><a href="#m13">Modifying_Cart_Test</a></td><td rowspan="1">1737526110222</td><td rowspan="1">6519</td></tr></tbody>
+</table>
+<h2>Linux-ChromeTest</h2><h3 id="m0">testCases.TC006_Checkout_Test#Add_to_Cart_and_Checkout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a50a228d33dfa81d1a10d437ec21197, clickElement {id=f.3EB994D72B5CC4E4DEB574FBED5ACC9C.d.303F50F08EB4A39CF5820B80D3053B47.e.177}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 132.0.6834.83, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (6a50a228d33dfa81d1a10d437ec21197)] -&gt; xpath: //span[@id=&apos;cart-total&apos;]]
+Session ID: 6a50a228d33dfa81d1a10d437ec21197
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at pageObjects.Products_page.ClickOnFinalCart(Products_page.java:73)
+	at testCases.TC006_Checkout_Test.Add_to_Cart_and_Checkout(TC006_Checkout_Test.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC001_AccountRegTest#Account_reg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC002_Login_Test#Login_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC002_Login_Test#Verifying_PageTitle_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC004_Search_Products_Test#SearchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC005_Add_to_Cart_Test#Add_to_Cart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC007_Modifying_Cart_Test#Modifying_Cart_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Linux-firefoxTest</h2><h3 id="m7">testCases.TC001_AccountRegTest#Account_reg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC002_Login_Test#Login_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC002_Login_Test#Verifying_PageTitle_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.TC004_Search_Products_Test#SearchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC005_Add_to_Cart_Test#Add_to_Cart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.TC006_Checkout_Test#Add_to_Cart_and_Checkout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.TC007_Modifying_Cart_Test#Modifying_Cart_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

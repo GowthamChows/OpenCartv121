@@ -1,16 +1,51 @@
-10:53:53.971 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Home Page
-10:53:53.980 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Execution Started
-10:53:54.738 [main] INFO  testCases.TC006_Checkout_Test - Clicking on the Add to Cart button
-10:53:54.811 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Cart page
-10:53:54.879 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Checkout page
-10:53:56.835 [main] INFO  testCases.TC006_Checkout_Test - Verifying the success text
-10:53:56.866 [main] INFO  testCases.TC006_Checkout_Test - THe Sucess txt is displayed As expected
-10:53:56.868 [main] INFO  testCases.TC006_Checkout_Test - Checkout test has been completed successfully.
-10:53:56.956 [main] INFO  testCases.TC006_Checkout_Test - Driver closed successfully.
-10:54:00.036 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test Started Executing
-10:54:01.018 [main] INFO  testCases.TC007_Modifying_Cart_Test - Sucessfully Item is added to the cart
-10:54:01.093 [main] INFO  testCases.TC007_Modifying_Cart_Test - Navigating to the Checkout page
-10:54:01.480 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
-10:54:02.118 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
-10:54:02.118 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
-10:54:02.212 [main] INFO  testCases.TC007_Modifying_Cart_Test - Driver closed successfully.
+11:37:08.020 [main] INFO  testCases.TC006_Checkout_Test - Driver closed successfully.
+11:37:12.591 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test Started Executing
+11:37:15.149 [main] INFO  testCases.TC007_Modifying_Cart_Test - Sucessfully Item is added to the cart
+11:37:15.716 [main] INFO  testCases.TC007_Modifying_Cart_Test - Navigating to the Checkout page
+11:37:16.918 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
+11:37:19.244 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
+11:37:19.244 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
+11:37:19.570 [main] INFO  testCases.TC007_Modifying_Cart_Test - Driver closed successfully.
+11:37:27.273 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+11:37:27.987 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+11:37:29.386 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+11:37:29.386 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+11:37:34.505 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+11:37:34.981 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+11:37:35.954 [main] INFO  testCases.TC001_AccountRegTest - Driver closed successfully.
+11:37:42.410 [main] INFO  testCases.TC002_Login_Test - Executing the Login
+11:37:46.647 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+11:37:48.318 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
+11:37:48.331 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
+11:37:48.331 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+11:37:48.811 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
+11:37:49.783 [main] INFO  testCases.TC002_Login_Test - Driver closed successfully.
+11:37:56.352 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
+11:37:58.384 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
+11:37:59.108 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
+11:38:00.178 [main] INFO  testCases.TC004_Search_Products_Test - Driver closed successfully.
+11:38:06.658 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
+11:38:06.658 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
+11:38:06.658 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook
+11:38:08.050 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
+11:38:09.440 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
+11:38:09.936 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
+11:38:09.936 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
+11:38:10.902 [main] INFO  testCases.TC005_Add_to_Cart_Test - Driver closed successfully.
+11:38:17.345 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Started Executing
+11:38:17.345 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Home Page
+11:38:17.345 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Execution Started
+11:38:18.683 [main] INFO  testCases.TC006_Checkout_Test - Clicking on the Add to Cart button
+11:38:19.363 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Cart page
+11:38:20.029 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Checkout page
+11:38:22.361 [main] INFO  testCases.TC006_Checkout_Test - Verifying the success text
+11:38:22.827 [main] INFO  testCases.TC006_Checkout_Test - THe Sucess txt is displayed As expected
+11:38:22.827 [main] INFO  testCases.TC006_Checkout_Test - Checkout test has been completed successfully.
+11:38:23.893 [main] INFO  testCases.TC006_Checkout_Test - Driver closed successfully.
+11:38:30.222 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test Started Executing
+11:38:32.757 [main] INFO  testCases.TC007_Modifying_Cart_Test - Sucessfully Item is added to the cart
+11:38:33.426 [main] INFO  testCases.TC007_Modifying_Cart_Test - Navigating to the Checkout page
+11:38:34.588 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
+11:38:36.741 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
+11:38:36.741 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
+11:38:37.716 [main] INFO  testCases.TC007_Modifying_Cart_Test - Driver closed successfully.

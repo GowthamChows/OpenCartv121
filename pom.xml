@@ -18,7 +18,7 @@
                 <version>3.2.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testing.xml</suiteXmlFile>
+                        <suiteXmlFile>Grid.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -87,4 +87,10 @@
   </dependency>
 
   </dependencies>
+  
+   <!--  
+  <properties>
+    <headless>true</headless>
+  </properties> -->
 </project>
+

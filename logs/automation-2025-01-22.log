@@ -1,60 +1,53 @@
-10:14:10.105 [main] INFO  testCases.TC006_Checkout_Test - Checkout test has been completed successfully.
-10:14:11.703 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test Started Executing
-10:14:12.325 [main] INFO  testCases.TC007_Modifying_Cart_Test - Sucessfully Item is added to the cart
-10:14:12.387 [main] INFO  testCases.TC007_Modifying_Cart_Test - Navigating to the Checkout page
-10:14:12.685 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
-10:14:13.078 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
-10:14:13.079 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
-10:15:46.641 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
-10:16:10.208 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
-10:17:24.416 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
-10:18:27.225 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:18:55.463 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:21:13.953 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
-10:21:14.234 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\eclipse\Workplace\opencart_121\Grid.xml
-
-10:23:57.688 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:24:25.541 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:24:25.838 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\eclipse\Workplace\opencart_121\testing.xml
-
-10:25:14.553 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:25:14.824 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\eclipse\Workplace\opencart_121\testing.xml
-
-10:30:47.999 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:30:48.280 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\eclipse\Workplace\opencart_121\testing.xml
-
-10:53:34.394 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-10:53:34.769 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\eclipse\Workplace\opencart_121\testing.xml
-
-10:53:38.017 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
-10:53:38.131 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
-10:53:38.617 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
-10:53:38.621 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
-10:53:39.709 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
-10:53:39.750 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
-10:53:39.941 [main] INFO  testCases.TC001_AccountRegTest - Driver closed successfully.
-10:53:42.421 [main] INFO  testCases.TC002_Login_Test - Executing the Login
-10:53:42.990 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
-10:53:44.111 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
-10:53:44.114 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
-10:53:44.115 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
-10:53:44.152 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
-10:53:44.255 [main] INFO  testCases.TC002_Login_Test - Driver closed successfully.
-10:53:46.307 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
-10:53:46.788 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
-10:53:46.828 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
-10:53:46.931 [main] INFO  testCases.TC004_Search_Products_Test - Driver closed successfully.
-10:53:50.888 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
-10:53:50.888 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
-10:53:50.890 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook
-10:53:51.532 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
-10:53:51.615 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
-10:53:51.837 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
-10:53:51.838 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
-10:53:51.975 [main] INFO  testCases.TC005_Add_to_Cart_Test - Driver closed successfully.
-10:53:53.971 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Started Executing
+11:31:10.576 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
+11:31:10.580 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
+11:31:11.547 [main] INFO  testCases.TC005_Add_to_Cart_Test - Driver closed successfully.
+11:31:18.028 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Started Executing
+11:31:18.029 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Home Page
+11:31:18.029 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Execution Started
+11:31:19.400 [main] INFO  testCases.TC006_Checkout_Test - Clicking on the Add to Cart button
+11:31:20.112 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Cart page
+11:31:20.824 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Checkout page
+11:31:23.189 [main] INFO  testCases.TC006_Checkout_Test - Verifying the success text
+11:31:23.703 [main] INFO  testCases.TC006_Checkout_Test - THe Sucess txt is displayed As expected
+11:31:23.703 [main] INFO  testCases.TC006_Checkout_Test - Checkout test has been completed successfully.
+11:31:24.692 [main] INFO  testCases.TC006_Checkout_Test - Driver closed successfully.
+11:31:31.737 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test Started Executing
+11:31:34.687 [main] INFO  testCases.TC007_Modifying_Cart_Test - Sucessfully Item is added to the cart
+11:31:35.385 [main] INFO  testCases.TC007_Modifying_Cart_Test - Navigating to the Checkout page
+11:31:36.581 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
+11:31:38.814 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
+11:31:38.814 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
+11:31:39.817 [main] INFO  testCases.TC007_Modifying_Cart_Test - Driver closed successfully.
+11:34:06.636 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+11:36:16.310 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
+11:36:21.974 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+11:36:22.563 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+11:36:23.420 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+11:36:23.421 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+11:36:29.551 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+11:36:30.055 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+11:36:30.400 [main] INFO  testCases.TC001_AccountRegTest - Driver closed successfully.
+11:36:34.645 [main] INFO  testCases.TC002_Login_Test - Executing the Login
+11:36:38.993 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+11:36:41.057 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
+11:36:41.061 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
+11:36:41.062 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+11:36:42.174 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
+11:36:42.503 [main] INFO  testCases.TC002_Login_Test - Driver closed successfully.
+11:36:47.737 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
+11:36:49.599 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
+11:36:50.347 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
+11:36:50.666 [main] INFO  testCases.TC004_Search_Products_Test - Driver closed successfully.
+11:36:55.636 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
+11:36:55.636 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
+11:36:55.636 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook
+11:36:57.068 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
+11:36:57.635 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
+11:36:58.213 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
+11:36:58.213 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
+11:36:58.533 [main] INFO  testCases.TC005_Add_to_Cart_Test - Driver closed successfully.
+11:37:03.427 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Started Executing
+11:37:03.427 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Home Page
+11:37:03.428 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Execution Started
+11:37:05.188 [main] INFO  testCases.TC006_Checkout_Test - Clicking on the Add to Cart button
+11:37:05.777 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Cart page
