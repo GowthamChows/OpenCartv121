@@ -1,53 +1,37 @@
-11:31:10.576 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
-11:31:10.580 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
-11:31:11.547 [main] INFO  testCases.TC005_Add_to_Cart_Test - Driver closed successfully.
-11:31:18.028 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Started Executing
-11:31:18.029 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Home Page
-11:31:18.029 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Execution Started
-11:31:19.400 [main] INFO  testCases.TC006_Checkout_Test - Clicking on the Add to Cart button
-11:31:20.112 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Cart page
-11:31:20.824 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Checkout page
-11:31:23.189 [main] INFO  testCases.TC006_Checkout_Test - Verifying the success text
-11:31:23.703 [main] INFO  testCases.TC006_Checkout_Test - THe Sucess txt is displayed As expected
-11:31:23.703 [main] INFO  testCases.TC006_Checkout_Test - Checkout test has been completed successfully.
-11:31:24.692 [main] INFO  testCases.TC006_Checkout_Test - Driver closed successfully.
-11:31:31.737 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test Started Executing
-11:31:34.687 [main] INFO  testCases.TC007_Modifying_Cart_Test - Sucessfully Item is added to the cart
-11:31:35.385 [main] INFO  testCases.TC007_Modifying_Cart_Test - Navigating to the Checkout page
-11:31:36.581 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
-11:31:38.814 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
-11:31:38.814 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
-11:31:39.817 [main] INFO  testCases.TC007_Modifying_Cart_Test - Driver closed successfully.
-11:34:06.636 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-11:36:16.310 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
-11:36:21.974 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
-11:36:22.563 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
-11:36:23.420 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
-11:36:23.421 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
-11:36:29.551 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
-11:36:30.055 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
-11:36:30.400 [main] INFO  testCases.TC001_AccountRegTest - Driver closed successfully.
-11:36:34.645 [main] INFO  testCases.TC002_Login_Test - Executing the Login
-11:36:38.993 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
-11:36:41.057 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
-11:36:41.061 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
-11:36:41.062 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
-11:36:42.174 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
-11:36:42.503 [main] INFO  testCases.TC002_Login_Test - Driver closed successfully.
-11:36:47.737 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
-11:36:49.599 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
-11:36:50.347 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
-11:36:50.666 [main] INFO  testCases.TC004_Search_Products_Test - Driver closed successfully.
-11:36:55.636 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
-11:36:55.636 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
-11:36:55.636 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook
-11:36:57.068 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
-11:36:57.635 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
-11:36:58.213 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
-11:36:58.213 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
-11:36:58.533 [main] INFO  testCases.TC005_Add_to_Cart_Test - Driver closed successfully.
-11:37:03.427 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Started Executing
-11:37:03.427 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Home Page
-11:37:03.428 [main] INFO  testCases.TC006_Checkout_Test - TC006_Checkout_Test Execution Started
-11:37:05.188 [main] INFO  testCases.TC006_Checkout_Test - Clicking on the Add to Cart button
-11:37:05.777 [main] INFO  testCases.TC006_Checkout_Test - Navigating to the Cart page
+12:01:43.902 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:43.904 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:43.905 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:43.924 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:43.925 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:43.927 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:43.945 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:43.946 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:43.947 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:43.965 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:43.966 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:43.966 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:43.986 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:43.986 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:43.987 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.002 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.003 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.004 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.023 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.023 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.024 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.042 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.043 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.043 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.058 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.059 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.061 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.092 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.092 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.093 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.106 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.106 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.107 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.123 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:01:44.124 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:01:44.124 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:01:44.144 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
