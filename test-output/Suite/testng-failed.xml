@@ -4,17 +4,60 @@
   <listeners>
     <listener class-name="testBase.Extent_Reports"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="os" value="windows"/>
+  <test thread-count="5" name="Linux-ChromeTest(failed)">
+    <parameter name="os" value="Linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_login_DDT">
+      <class name="testCases.TC004_Search_Products_Test">
         <methods>
-          <include name="Verify_Login_DDT" invocation-numbers="0 1 2 4"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
+          <include name="SearchTest"/>
         </methods>
-      </class> <!-- testCases.TC003_login_DDT -->
+      </class> <!-- testCases.TC004_Search_Products_Test -->
+      <class name="testCases.TC001_AccountRegTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="Account_reg"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegTest -->
+      <class name="testCases.TC002_Login_Test">
+        <methods>
+          <include name="Login_test"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="Verifying_PageTitle_test"/>
+        </methods>
+      </class> <!-- testCases.TC002_Login_Test -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Linux-ChromeTest(failed) -->
+  <test thread-count="5" name="Linux-firefoxTest(failed)">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC004_Search_Products_Test">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="SearchTest"/>
+        </methods>
+      </class> <!-- testCases.TC004_Search_Products_Test -->
+      <class name="testCases.TC001_AccountRegTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="Account_reg"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegTest -->
+      <class name="testCases.TC002_Login_Test">
+        <methods>
+          <include name="Login_test"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="Verifying_PageTitle_test"/>
+        </methods>
+      </class> <!-- testCases.TC002_Login_Test -->
+    </classes>
+  </test> <!-- Linux-firefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

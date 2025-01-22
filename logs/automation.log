@@ -24,3 +24,29 @@
 13:02:35.029 [main] INFO  testCases.TC007_Modifying_Cart_Test - Giving the input Value
 13:02:35.430 [main] INFO  testCases.TC007_Modifying_Cart_Test - The Message Which is Expected is sucessfully displayed
 13:02:35.430 [main] INFO  testCases.TC007_Modifying_Cart_Test - TC007_Modifying_Cart_Test has been completed successfully.
+13:38:50.243 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
+13:38:50.526 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\Grid.xml
+
+13:38:52.683 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+13:38:52.784 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+13:38:53.088 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+13:38:53.091 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+13:38:54.124 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+13:38:54.195 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+13:38:55.963 [main] INFO  testCases.TC002_Login_Test - Executing the Login
+13:38:57.048 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+13:38:57.397 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
+13:38:57.401 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
+13:38:57.402 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+13:38:57.447 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
+13:38:59.232 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
+13:38:59.626 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
+13:38:59.664 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
+13:39:01.230 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+13:39:01.246 [main] ERROR testCases.TC001_AccountRegTest - Test Failed
+13:39:01.246 [main] DEBUG testCases.TC001_AccountRegTest - Debug Logs
+13:39:30.100 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\Grid.xml"
+13:39:30.416 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\Grid.xml
+

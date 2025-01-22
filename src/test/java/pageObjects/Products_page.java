@@ -67,7 +67,7 @@ public class Products_page  extends BasePage {
 	public String getAlertMessageText() {
         return successMessage.getText();
     }
-	
+
 	public void ClickOnFinalCart()
 	{
 		TotalCartBtn.click();
