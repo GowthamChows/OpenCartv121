@@ -20,7 +20,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testing.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                 <!--   <argLine>-Djava.awt.headless=true</argLine>  -->
+                 <argLine>-Djava.awt.headless=true</argLine>
                 </configuration>
             </plugin>
         </plugins>
