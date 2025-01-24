@@ -42,7 +42,7 @@ public class TC002_Login_Test extends ReUsed {
        MyAccount_Page MyAcPage= new MyAccount_Page(driver);
        boolean conformMsg=MyAcPage.getConformationTxt();
 		
-	   MyAcPage.ClickOnLogoutbtn();
+	   // MyAcPage.ClickOnLogoutbtn();
 	   
 	   logger.info("Login Sucessfull And Test Has Finished");
 	}

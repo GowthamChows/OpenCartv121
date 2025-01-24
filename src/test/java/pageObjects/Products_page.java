@@ -30,11 +30,20 @@ public class Products_page  extends BasePage {
 	@FindBy(xpath="//button[@id='button-cart']")
 	WebElement addtocartbtn;
 	
+	@FindBy(xpath="//button[@type='button']//i[@class='fa fa-heart']")
+	WebElement Wishlistbtn;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement VerifyingWishlistTxt;
+	
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 	WebElement successMessage;
 	
 	@FindBy(xpath="//span[@id='cart-total']")
 	WebElement TotalCartBtn;
+	
+	@FindBy(xpath="//a[normalize-space()='Samsung Galaxy Tab 10.1']")
+	WebElement SamSungGalaxy_Tab;
 	
 	public void  Verifying_Product()
 	{
@@ -72,4 +81,20 @@ public class Products_page  extends BasePage {
 	{
 		TotalCartBtn.click();
 	}
+	
+	public void ClickOnWishListBtn()
+	{
+		Wishlistbtn.click();
+	}
+	
+	
+	public String Verifying_Wishlist_Sucess_Txt() {
+        return VerifyingWishlistTxt.getText();
+    }
+	
+	public void ClickOn_SamSung_Product()
+	{
+		SamSungGalaxy_Tab.click();
+	}
+	
 }

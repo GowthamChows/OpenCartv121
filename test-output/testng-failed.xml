@@ -4,17 +4,18 @@
   <listeners>
     <listener class-name="testBase.Extent_Reports"/>
   </listeners>
-  <test thread-count="5" name="Linux-firefoxTest(failed)">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_login_DDT">
+      <class name="testCases.TC008_Add_to_Wishlist_Test">
         <methods>
-          <include name="Verify_Login_DDT" invocation-numbers="0 1 2 4"/>
+          <include name="Verifying_The_Itemsinthe_Wishlist"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
+          <include name="AddingItems_to_Cart"/>
         </methods>
-      </class> <!-- testCases.TC003_login_DDT -->
+      </class> <!-- testCases.TC008_Add_to_Wishlist_Test -->
     </classes>
-  </test> <!-- Linux-firefoxTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

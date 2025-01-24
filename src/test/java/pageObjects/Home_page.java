@@ -36,6 +36,15 @@ public class Home_page  extends BasePage {
 	WebElement MacBook;
 	
 	
+	@FindBy(xpath="//ul[@class='nav navbar-nav']//a[contains(text(),'Tablets')]")
+	WebElement Tablets;
+	
+	@FindBy(xpath="//a[normalize-space()='Cameras (2)']")
+	WebElement Cameras;	
+	
+	@FindBy(xpath="//a[normalize-space()='Canon EOS 5D']")
+	WebElement Canon_Item;
+	
 	
 	 public boolean Page_Name() {
 	        try {
@@ -73,6 +82,19 @@ public class Home_page  extends BasePage {
 	public void ClickOnMacBook()
 	{
 		MacBook.click();
+	}
+	
+	public void ClickOnTablets() {
+		Tablets.click();
+	}
+	
+	public void ClickOnCameras() {
+		Cameras.click();
+	}
+	
+	public void ClickOnCanon_Item()
+	{
+		Canon_Item.click();
 	}
 	
 }
