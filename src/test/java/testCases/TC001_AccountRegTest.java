@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.AccountRegistration_page;
 import pageObjects.Home_page;
+import testBase.ReUsed;
 
 public class TC001_AccountRegTest extends ReUsed {
 	

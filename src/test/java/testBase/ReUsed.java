@@ -1,4 +1,4 @@
-package testCases;
+package testBase;
 
 import java.io.File;
 import java.io.FileReader;
@@ -60,7 +60,7 @@ public class ReUsed {
                     logger.error("No Matching OS Found");
                     return;
             }
-
+// Here we Should  set The Browser name Like for example  if we Want lunix the statements gets break here it self.
             // Set Browser
             switch (br.toLowerCase()) {
                 case "chrome":

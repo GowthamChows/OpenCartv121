@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-24T18:01:47 IST" name="Suite" finished-at="2025-01-24T18:01:57 IST" duration-ms="10460">
+  <suite started-at="2025-03-10T18:12:27 IST" name="Suite" finished-at="2025-03-10T18:12:35 IST" duration-ms="7844">
     <groups>
       <group name="Master">
-        <method signature="TC008_Add_to_Wishlist_Test.AddingItems_to_Cart()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" name="AddingItems_to_Cart" class="testCases.TC008_Add_to_Wishlist_Test"/>
-        <method signature="TC008_Add_to_Wishlist_Test.Verifying_The_Items_in_the_Wishlist()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" name="Verifying_The_Items_in_the_Wishlist" class="testCases.TC008_Add_to_Wishlist_Test"/>
+        <method signature="TC0010_Newsletter_SUbscription_Test.Newsletter_SUbscription_Test()[pri:0, instance:testCases.TC0010_Newsletter_SUbscription_Test@4795ded0]" name="Newsletter_SUbscription_Test" class="testCases.TC0010_Newsletter_SUbscription_Test"/>
+        <method signature="TC009_Transction_balance_Test.Transction_balance_Test()[pri:0, instance:testCases.TC009_Transction_balance_Test@4c4748bf]" name="Transction_balance_Test" class="testCases.TC009_Transction_balance_Test"/>
       </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="TC008_Add_to_Wishlist_Test.AddingItems_to_Cart()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" name="AddingItems_to_Cart" class="testCases.TC008_Add_to_Wishlist_Test"/>
-        <method signature="TC008_Add_to_Wishlist_Test.Verifying_The_Items_in_the_Wishlist()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" name="Verifying_The_Items_in_the_Wishlist" class="testCases.TC008_Add_to_Wishlist_Test"/>
-      </group> <!-- Regression -->
+      <group name="Sanity">
+        <method signature="TC0010_Newsletter_SUbscription_Test.Newsletter_SUbscription_Test()[pri:0, instance:testCases.TC0010_Newsletter_SUbscription_Test@4795ded0]" name="Newsletter_SUbscription_Test" class="testCases.TC0010_Newsletter_SUbscription_Test"/>
+        <method signature="TC009_Transction_balance_Test.Transction_balance_Test()[pri:0, instance:testCases.TC009_Transction_balance_Test@4c4748bf]" name="Transction_balance_Test" class="testCases.TC009_Transction_balance_Test"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-01-24T18:01:47 IST" name="Test" finished-at="2025-01-24T18:01:57 IST" duration-ms="10460">
-      <class name="testCases.TC008_Add_to_Wishlist_Test">
-        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" started-at="2025-01-24T18:01:47 IST" name="SetUp" finished-at="2025-01-24T18:01:50 IST" duration-ms="2875" status="PASS">
+    <test started-at="2025-03-10T18:12:27 IST" name="Test" finished-at="2025-03-10T18:12:35 IST" duration-ms="7844">
+      <class name="testCases.TC0010_Newsletter_SUbscription_Test">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0010_Newsletter_SUbscription_Test@4795ded0]" started-at="2025-03-10T18:12:31 IST" name="SetUp" finished-at="2025-03-10T18:12:33 IST" duration-ms="1504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,19 +31,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="AddingItems_to_Cart()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" started-at="2025-01-24T18:01:50 IST" name="AddingItems_to_Cart" finished-at="2025-01-24T18:01:55 IST" duration-ms="5001" status="PASS">
+        <test-method signature="Newsletter_SUbscription_Test()[pri:0, instance:testCases.TC0010_Newsletter_SUbscription_Test@4795ded0]" started-at="2025-03-10T18:12:33 IST" name="Newsletter_SUbscription_Test" finished-at="2025-03-10T18:12:35 IST" duration-ms="2076" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddingItems_to_Cart -->
-        <test-method signature="Verifying_The_Items_in_the_Wishlist()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" started-at="2025-01-24T18:01:55 IST" name="Verifying_The_Items_in_the_Wishlist" finished-at="2025-01-24T18:01:57 IST" duration-ms="1920" status="PASS">
+        </test-method> <!-- Newsletter_SUbscription_Test -->
+      </class> <!-- testCases.TC0010_Newsletter_SUbscription_Test -->
+      <class name="testCases.TC009_Transction_balance_Test">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_Transction_balance_Test@4c4748bf]" started-at="2025-03-10T18:12:27 IST" name="SetUp" finished-at="2025-03-10T18:12:29 IST" duration-ms="2033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verifying_The_Items_in_the_Wishlist -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC008_Add_to_Wishlist_Test@19553973]" started-at="2025-01-24T18:01:57 IST" name="TearDown" finished-at="2025-01-24T18:01:57 IST" duration-ms="215" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="Transction_balance_Test()[pri:0, instance:testCases.TC009_Transction_balance_Test@4c4748bf]" started-at="2025-03-10T18:12:29 IST" name="Transction_balance_Test" finished-at="2025-03-10T18:12:31 IST" duration-ms="1904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- testCases.TC008_Add_to_Wishlist_Test -->
+        </test-method> <!-- Transction_balance_Test -->
+      </class> <!-- testCases.TC009_Transction_balance_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.Home_page;
 import pageObjects.Products_page;
+import testBase.ReUsed;
 
 public class TC004_Search_Products_Test extends ReUsed {
 

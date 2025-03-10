@@ -10,8 +10,8 @@
     <classes>
       <class name="testCases.TC008_Add_to_Wishlist_Test">
         <methods>
-          <include name="Verifying_The_Itemsinthe_Wishlist"/>
           <include name="TearDown"/>
+          <include name="Verifying_The_Items_in_the_Wishlist"/>
           <include name="SetUp"/>
           <include name="AddingItems_to_Cart"/>
         </methods>

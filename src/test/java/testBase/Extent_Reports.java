@@ -17,8 +17,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import testCases.ReUsed;
-
 public class Extent_Reports implements ITestListener {
 
     public ExtentSparkReporter sparkReporter; // Used for configuring and creating the HTML report

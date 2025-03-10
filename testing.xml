@@ -12,7 +12,8 @@
   	<parameter name="browser" value="chrome"/> 
   	
     <classes>
-       <class name="testCases.TC008_Add_to_Wishlist_Test"/>
+       <class name="testCases.TC009_Transction_balance_Test"/>
+       <class name="testCases.TC0010_Newsletter_SUbscription_Test"/>
     </classes>
   </test> 
 </suite> 

@@ -12,6 +12,7 @@ import pageObjects.Login_page;
 import pageObjects.MyAccount_Page;
 import pageObjects.Products_page;
 import pageObjects.WishlistPage;
+import testBase.ReUsed;
 
 public class TC008_Add_to_Wishlist_Test  extends ReUsed {
 

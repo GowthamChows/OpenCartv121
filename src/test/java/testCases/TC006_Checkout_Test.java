@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.Checkout_Page;
 import pageObjects.Home_page;
 import pageObjects.Products_page;
+import testBase.ReUsed;
 
 public class TC006_Checkout_Test extends ReUsed {
 	

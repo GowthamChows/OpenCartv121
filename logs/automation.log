@@ -1,13 +1,43 @@
-18:01:46.990 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
-18:01:47.373 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+19:31:54.768 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
+19:31:54.897 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
+19:31:55.080 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
+19:31:55.081 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
+13:49:43.367 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\grouping.xml"
+13:49:43.769 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\grouping.xml
+
+13:49:47.365 [main] INFO  testCases.TC001_AccountRegTest - Starting TC001_AccountRegTest
+13:49:47.563 [main] INFO  testCases.TC001_AccountRegTest - Clicked on My Account
+13:49:48.031 [main] INFO  testCases.TC001_AccountRegTest - Clicked on Register
+13:49:48.038 [main] INFO  testCases.TC001_AccountRegTest - Providing the customer details
+13:49:49.795 [main] INFO  testCases.TC001_AccountRegTest - Verifying the Conformation Message
+13:49:49.857 [main] INFO  testCases.TC001_AccountRegTest - TC001_AccountRegTest Finished
+13:49:51.841 [main] INFO  testCases.TC002_Login_Test - Executing the Login
+13:49:53.470 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+13:49:53.627 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
+13:49:53.643 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
+13:49:53.643 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+13:49:53.707 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
+13:49:55.754 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
+13:49:55.754 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
+13:49:55.763 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook
+13:49:56.432 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
+13:49:56.569 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
+13:49:56.767 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
+13:49:56.767 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
+13:49:58.806 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
+13:49:59.489 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
+13:49:59.572 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
+17:51:16.190 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+17:51:16.459 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\eclipse\Workplace\opencart_121\testing.xml
 
-18:01:50.695 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - TC008_Add_to_Wishlist_Test Started Executing
-18:01:50.751 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Logging into the Account
-18:01:52.187 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Removing the Prevous Products from the Wishlist
-18:01:54.456 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Samsung Galaxy Tab 10.1 Added to WishList
-18:01:55.681 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Cannon Added to the wishlist
-18:01:56.008 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - On Wishlist Page
-18:01:57.621 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Account Logged Out
-18:01:57.621 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - TC008_Add_to_Wishlist_Test Finished Sucessfully
-18:01:57.841 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Driver closed successfully.
+18:10:53.910 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+18:11:36.920 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+18:11:46.688 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+18:12:27.064 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+18:12:27.332 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\testing.xml
+
+18:12:33.105 [main] INFO  testCases.TC0010_Newsletter_SUbscription_Test - Executing the Login
+18:12:34.343 [main] INFO  testCases.TC0010_Newsletter_SUbscription_Test - Clicked on the Login Button

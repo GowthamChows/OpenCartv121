@@ -1,0 +1,58 @@
+18:01:46.990 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+18:01:47.373 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\testing.xml
+
+18:01:50.695 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - TC008_Add_to_Wishlist_Test Started Executing
+18:01:50.751 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Logging into the Account
+18:01:52.187 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Removing the Prevous Products from the Wishlist
+18:01:54.456 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Samsung Galaxy Tab 10.1 Added to WishList
+18:01:55.681 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Cannon Added to the wishlist
+18:01:56.008 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - On Wishlist Page
+18:01:57.621 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Account Logged Out
+18:01:57.621 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - TC008_Add_to_Wishlist_Test Finished Sucessfully
+18:01:57.841 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Driver closed successfully.
+10:24:38.347 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+10:24:38.977 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\testing.xml
+
+10:24:53.754 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - TC008_Add_to_Wishlist_Test Started Executing
+10:24:53.817 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Logging into the Account
+10:24:56.186 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Removing the Prevous Products from the Wishlist
+10:25:07.587 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - On Wishlist Page
+10:25:18.033 [main] INFO  testCases.TC008_Add_to_Wishlist_Test - Driver closed successfully.
+10:29:02.761 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+10:29:03.119 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\testing.xml
+
+10:29:06.217 [main] INFO  testCases.TC002_Login_Test - Executing the Login
+10:29:07.828 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+10:29:07.874 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
+10:29:07.893 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
+10:29:07.894 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+10:29:07.936 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
+10:29:10.051 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
+10:29:10.857 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
+10:29:10.938 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
+10:29:13.311 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
+10:29:13.312 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
+10:29:13.314 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook
+10:29:14.054 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the Add to Cart button
+10:29:14.239 [main] INFO  testCases.TC005_Add_to_Cart_Test - Verifying the success text
+10:29:14.383 [main] INFO  testCases.TC005_Add_to_Cart_Test - Sucess Text is As Expected
+10:29:14.384 [main] INFO  testCases.TC005_Add_to_Cart_Test - Add to Cart test has been completed
+19:31:35.365 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse\Workplace\opencart_121\testing.xml"
+19:31:35.759 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse\Workplace\opencart_121\testing.xml
+
+19:31:46.814 [main] INFO  testCases.TC002_Login_Test - Executing the Login
+19:31:49.675 [main] INFO  testCases.TC002_Login_Test - Clicked on the Login Button
+19:31:49.734 [main] INFO  testCases.TC002_Login_Test - Login Sucessfull And Test Has Finished
+19:31:49.779 [main] INFO  testCases.TC002_Login_Test - TC002_Login_test Started execution
+19:31:49.779 [main] INFO  testCases.TC002_Login_Test - ***************Verifying the  Page Name ****************
+19:31:49.835 [main] INFO  testCases.TC002_Login_Test - Page Tittle Verification Sucessfull
+19:31:51.700 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test Started execution
+19:31:52.220 [main] INFO  testCases.TC004_Search_Products_Test - Given The Search string item and verifying it 
+19:31:52.289 [main] INFO  testCases.TC004_Search_Products_Test - TC004_Search_Products_test execution Completed
+19:31:54.257 [main] INFO  testCases.TC005_Add_to_Cart_Test - TC005_Add_to_Cart_Test Started Executing
+19:31:54.257 [main] INFO  testCases.TC005_Add_to_Cart_Test - Navigating to the Home Page
+19:31:54.260 [main] INFO  testCases.TC005_Add_to_Cart_Test - Clicking on the MacBook

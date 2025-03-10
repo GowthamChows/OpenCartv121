@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import pageObjects.Home_page;
 import pageObjects.Login_page;
 import pageObjects.MyAccount_Page;
+import testBase.ReUsed;
 
 public class TC002_Login_Test extends ReUsed {
 	
